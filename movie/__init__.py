@@ -4,8 +4,8 @@ import os
 
 from flask import Flask
 
-import covid.adapters.repository as repo
-from covid.adapters.memory_repository import MemoryRepository, populate
+import movie.adapters.repository as repo
+from movie.adapters.memory_repository import MemoryRepository, populate
 
 
 def create_app(test_config=None):
