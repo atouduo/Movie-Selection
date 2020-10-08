@@ -27,4 +27,6 @@ def create_app(test_config=None):
     repo.repo_instance = MemoryRepository()
     populate(data_path, repo.repo_instance)
 
+    return app
+
     # Build the application - these steps require an application context.
