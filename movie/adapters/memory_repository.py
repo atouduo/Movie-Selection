@@ -15,7 +15,7 @@ class MemoryRepository(AbstractRepository):
     # Articles ordered by date, not id. id is assumed unique.
 
     def __init__(self):
-        self._articles = list()
+        self._movies = list()
         self._articles_index = dict()
         self._tags = list()
         self._users = list()
