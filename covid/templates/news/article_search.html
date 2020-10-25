@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie</title>
+</head>
+<body>
+    {% for article in articles %}
+    <article id="article">
+        <a>
+            <img src={{article.image_hyperlink}} alt="article image">
+        </a>
+        <h2>Title: {{article.title}}, Decriptin: {{article.description}}</h2>
+
+        </article>
+    {% endfor %}
+</body>
+</html>

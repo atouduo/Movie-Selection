@@ -1,5 +1,5 @@
 """App entry point."""
-from movie import create_app
+from covid import create_app
 
 app = create_app()
 
